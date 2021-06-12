@@ -1,0 +1,87 @@
+*{
+  font-family: Courier;
+  background-color: #cbd3f0;
+}
+
+#interface{
+  margin: auto;
+  width: 246px;
+  height: 50px;
+}
+
+p{
+  font-size: 20px;
+  float: left;
+}
+
+.logo{
+  margin: auto;
+  width: 400px; 
+}
+
+#iLogo{
+  width: 100%;
+}
+
+#iJogadores{
+  width: 50px;
+}
+
+.campo{
+  width: 246px;
+  margin: auto;
+}
+
+.quadrado{
+  width: 80px;
+  height: 80px;
+  border: solid 1px rgb(252, 137, 179);
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.quadrado img{
+  width: 100%;
+}
+
+#msgVitoria{
+  margin: auto;
+  width: 246px;
+}
+#iVitoria{
+  width: 70px;
+  float: left;
+  margin: 10px;
+}
+#msgVitoria p{
+  float: left;
+  vertical-align: middle;
+}
+
+table{
+  position: relative;
+  float: right;
+  width: 200px;
+  height: 100px;
+  justify-content: center;
+  align-content: center;
+  pointer-events: none;
+}
+
+.iTab{
+  height: 40px;
+}
+
+#qIm{
+  pointer-events: none;
+}
+
+button{
+  margin: 13px;
+  height: 40px;
+  border: 1px solid rgb(252, 137, 179);
+  background-color: #ffe0eb;
+  font-family: 'Courier';
+  cursor: pointer;
+}
