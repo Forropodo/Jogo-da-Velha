@@ -73,13 +73,13 @@ function verifyVictory(){
   
   var pWinner;
 
-  if((q1 == q2 && q1 == q3 && q1 !="") || (q1 == q4 && q1 == q7 && q1 !="") || (q1 == q5 && q1 == q9 && q1 !="")){
+  if((q1 == q2 && q1 == q3 && q1) || (q1 == q4 && q1 == q7 && q1) || (q1 == q5 && q1 == q9 && q1)){
     pWinner = q1;
   }
-  else if((q5 == q4 && q5 == q6 && q5 !="") || (q5 == q2 && q5 == q8 && q5 !="") || (q5 == q3 && q5 == q7 && q5 !="")){
+  else if((q5 == q4 && q5 == q6 && q5) || (q5 == q2 && q5 == q8 && q5) || (q5 == q3 && q5 == q7 && q5)){
     pWinner = q5;
   }
-  else if((q9 == q8 && q9 == q7 && q9 !="") || (q9 == q6 && q9 == q3 && q9 !="")){
+  else if((q9 == q8 && q9 == q7 && q9) || (q9 == q6 && q9 == q3 && q9)){
     pWinner = q9;
   }
 
