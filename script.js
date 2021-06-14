@@ -14,14 +14,12 @@ playerTurn();
 startGame();
 
 function playerTurn(){
-  if(gameOver == true){return; }
-
+  var imagePlayer = document.querySelectorAll('div#interface img')[0];
+  
   if(turn == player1){
-    var imagePlayer = document.querySelectorAll('div#interface img')[0];
     imagePlayer.setAttribute('src', 'images/gato.png');
   }
   else{
-    var imagePlayer = document.querySelectorAll('div#interface img')[0];
     imagePlayer.setAttribute('src', 'images/pata.png');
   }
 }
